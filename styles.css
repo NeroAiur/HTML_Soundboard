@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    min-height: 10%;
+    height: auto;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    background-color: #ffffff;
+    min-height: 85%;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    background: #333333;
+    min-height: 5%;
+    height: auto;
+    width: 100%;
+}
+
+.soundButton {
+    width: 20%;
+    height: 80%;
+    padding: 16px;
+    border: 1px solid #222222;
+    background-color: #333333;
+    color:#ffffff;
+    margin: 7px;
+    text-align: center;
+}
+
+.soundButton:hover {
+    background-color: #555555;
+}
+
+.contentWrapper {
+    display: flex;
+    min-width: 100%;
+    width: 100%;
+}
+
+.buttonsRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonsRow .soundButton {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}

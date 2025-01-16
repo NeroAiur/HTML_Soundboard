@@ -1,4 +1,14 @@
-html, body {
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -10,15 +20,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #333333;
+    background-color: #222222;
     min-height: 10%;
     height: auto;
     width: 100%;
 }
 
+header .soundButton {
+    line-height: 100%;
+    font-size: 8vh;
+    width: 30%;
+}
+
 main {
     display: flex;
-    background-color: #ffffff;
+    background-color: #aaaaaa;
     min-height: 85%;
     height: auto;
     width: 100%;
@@ -26,13 +42,14 @@ main {
 }
 
 footer {
-    background: #333333;
+    background: #222222;
     min-height: 5%;
     height: auto;
     width: 100%;
 }
 
 .soundButton {
+    display: flex;
     width: 20%;
     height: 80%;
     padding: 16px;
@@ -41,6 +58,7 @@ footer {
     color:#ffffff;
     margin: 7px;
     text-align: center;
+    justify-content: center;
 }
 
 .soundButton:hover {
@@ -60,12 +78,12 @@ footer {
     min-width: 100%;
     width: 100%;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 .buttonsRow .soundButton {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 28vw;
 }
